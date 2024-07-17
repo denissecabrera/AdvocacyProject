@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald', sans-sa;
+  color: #004F2D;
+}
+p
+{
+  color: #004F2D;
+}
+
+
+#banner
+{
+  background: linear-gradient(to bottom right, #CEB5A7 0%, #E0F2E9 100%);
+  color: mintcream;
+  text-align: center;
+  padding: 1rem 1rem;
+  border-radius: 25px;
+  width: 1350px;
+} 
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /*background-color: #E0F2E9;*/
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #8F5C38;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.8s ease;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #AA4465;
+  color: #EDF0DA;
+  
+  padding: 20px;
+  font-weight: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #AA4465;
+  color: #EDF0DA;
+}
+
+  body {
+    background-color: #E0F2E9;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  body.dark-mode {
+    background-color: black;
+    color: #EDF0DA;
+  }
+
+
+#sign-up-button
+{
+  background-color: #AA4465;
+  color: #EDF0DA;
+  border-radius: 15px;
+}
+
+#our-mission-button
+{
+  background-color: #AA4465;
+  color: #EDF0DA;
+  border-radius: 15px;
+}
+
+#sign-up-button:hover
+{
+  background-color: #313B72;
+  color:aliceblue;
+  transition: all 0.7s ease;
+  border-radius: 25px;
+}
+
+#our-mission-button:hover
+{
+  background-color: #313B72;
+  color:aliceblue;
+  transition: all 0.7s ease;
+  border-radius: 25px;
+  
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+/* <- this will require you to declare a class="important" in one of your HTML elements #interesting {}
+
+<- this will require you to declare a id="interesting" in one of your HTML elements */
